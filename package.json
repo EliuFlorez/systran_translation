@@ -1,0 +1,23 @@
+{
+  "name": "systran_translation_api",
+  "version": "1.0.0",
+  "description": "Systran technical test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/translate.js",
+    "start": "nodemon server.js"
+  },
+  "author": "Matthieu Boissimon",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^5.0.1",
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
