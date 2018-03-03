@@ -3,8 +3,6 @@ var request = require('request-promise');
 var systranUrl = 'https://api-platform.systran.net';
 var apiKeyParam = 'key=' + config.apiKey;
 
-console.log(apiKeyParam);
-
 exports.getTranslation = function(source, target, input) {
 	var reqUrl = systranUrl + '/translation/text/translate?'
 					+ apiKeyParam
